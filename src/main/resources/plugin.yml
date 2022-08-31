@@ -1,0 +1,4 @@
+name: NickLobby
+version: '${version}'
+main: eu.raveq.nickapilobby.NickAPILobby
+api-version: 1.19
