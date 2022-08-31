@@ -27,7 +27,7 @@ public final class NickAPILobby extends JavaPlugin {
         try {
             PreparedStatement ps = (PreparedStatement) SQL.getConnection().prepareStatement("CREATE TABLE IF NOT EXISTS nickname (UUID VARCHAR(100), nickname VARCHAR(100))");
             ps.executeUpdate();
-            Bukkit.getConsoleSender().sendMessage("Table created");
+            Bukkit.getConsoleSender().sendMessage("Tabellen wurde erstellt");
         } catch (SQLException e) {
 
         }
